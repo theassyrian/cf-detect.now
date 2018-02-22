@@ -1,0 +1,20 @@
+{
+    "name": "cloudflare-detect",
+    "public": false,
+    "alias": [
+        "cf-detect.now.sh",
+        "cloudflare-detect.now.sh"
+    ],
+    "files": [
+        "index.js",
+    	".env",
+        "css/styles.css",
+        "index.html",
+        "status.html",
+        "package.json",
+        "imgs/cloudflare.png"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
+}

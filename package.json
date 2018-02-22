@@ -1,0 +1,29 @@
+{
+  "name": "cloudflare-detect.now",
+  "version": "1.0.0",
+  "description": "Minimal service to check whether a site is running behind Cloudflare.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "detect"
+  ],
+  "author": "k4m4",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cloudflare-detect": "^1.0.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-sanitizer": "^1.0.3",
+    "helmet": "^3.11.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
+}
