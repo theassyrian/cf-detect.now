@@ -12,9 +12,11 @@
         "index.html",
         "status.html",
         "package.json",
-        "imgs/cloudflare.png"
+        "imgs/cloudflare.png",
+        "imgs/favicon.png"
     ],
     "env": {
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "SECRET": "@secret"
     }
 }
